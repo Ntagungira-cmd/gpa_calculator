@@ -33,7 +33,7 @@ h1 {
   text-align: center;
   margin-bottom: 30px;
   padding: 20px;
-  background: linear-gradient(45deg, #4CAF50, #45a049);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-radius: 15px;
   color: white;
   box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
@@ -67,7 +67,7 @@ h1 {
 }
 
 .input-section:hover {
-  border-color: #667eea;
+  border-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
 }
 
@@ -102,7 +102,7 @@ input {
 
 input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
   transform: translateY(-1px);
 }
@@ -167,7 +167,7 @@ input:focus {
 }
 
 .assignments-count {
-  background: #667eea;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 5px 12px;
   border-radius: 20px;
@@ -202,7 +202,7 @@ input:focus {
 }
 
 .assignment-grade {
-  background: linear-gradient(45deg, #4CAF50, #45a049);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   padding: 8px 15px;
   border-radius: 20px;
@@ -233,7 +233,7 @@ input:focus {
   padding: 15px;
   background: rgba(255, 193, 7, 0.1);
   border-radius: 10px;
-  color: #856404;
+  color: #666;
   font-weight: 600;
 }
 
