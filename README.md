@@ -58,7 +58,7 @@ gpa_calculator/
    - If localStorage is implemented, your assignments will be saved automatically
    - Data will persist even after refreshing the page or closing the browser
 
-## 👥 Team Members
+## Team Members
 
 - Premier Ufitinema
 - Diane Ingabire
