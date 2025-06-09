@@ -236,3 +236,48 @@ input:focus {
   color: #856404;
   font-weight: 600;
 }
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+.button-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.reset-btn {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 71, 87, 0.3);
+}
+
+.reset-btn:hover {
+  background: #ff3838;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 71, 87, 0.4);
+}
+
+.reset-btn:active {
+  transform: translateY(0);
+}
